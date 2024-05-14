@@ -39,7 +39,7 @@ async function give(){
     humidity.innerHTML=pdata.main.humidity
     console.log(pdata.weather[0].main)
     weathericon=document.querySelector(".weather-icon")
-    weathericon.src="./weather-app-img/images/"+pdata.weather[0].main+".png"
+   weathericon.src="./weather-app-img/images/"+pdata.weather[0].main+".png"
     
     // console.log(pdata)
     // console.log(pdata.main.temp)
